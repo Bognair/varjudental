@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Varju Dental</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style-csapat.css">
+    <link rel="stylesheet" href="style-szolg.css">
+    <link rel="stylesheet" href="style-footer.css">
+    <link rel="stylesheet" href="style-kapcsolat.css">
+
+
+      <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <!-- Boxicons ikoncsomag -->
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+
+</head>
+<button id="backToTop" aria-label="Back to Top">
+  <i class="bx bx-up-arrow-alt"></i>
+</button>
+<body>
+<header>
+  <nav class="navbar">
+    <div class="logo-container">
+        <img src="images/logo1.png" alt="Fő kép" class="benedek-logo">
+    </div>
+    <ul class="nav-list">
+        <li><i class="bx bxs-user"></i><a href="index.html">Főoldal</a></li>
+        <li><i class="bx bx-photo-album"></i><a href="szolgaltatasok.html">Szolgáltatások</a></li>
+        <li><i class="bx bx-intersect"></i><a href="index.html#bejelentkezes">Bejelentkezés</a></li>
+        <li><i class="bx bx-photo-album"></i><a href="csapat.html">Csapatunk</a></li>
+        <li><i class="bx bx-envelope"></i><a href="kapcsolat.html">Kapcsolat</a></li>
+    </ul>
+    
+    <!-- hamburgermenü-->
+    <div class="menu-icon" onclick="toggleMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+    
+ </nav>
+</header>
+
+<section class="avaszf-container">
+  <div class="avaszf-szoveg">
+      <div class="text1">
+      <h2>ADATVÉDELMI IRÁNYELVEK</h2>
+             <div class="text1-1">
+                  <p>Üdvözöljük a Varju Dental adatvédelmi irányelveiben! Az alábbiakban részletezzük, hogy milyen adatokat gyűjtünk, hogyan használjuk és milyen intézkedéseket teszünk azok védelme érdekében.</p><br>
+                  <p>Ezen információkat kizárólag az étel szállításához és kapcsolódó kommunikációhoz használjuk, illetve a szolgáltatás élményének javítására. Nem adjuk ki ezeket az adatokat harmadik feleknek, kivéve, ha erre törvényes kötelezettségünk van.
+                    Fontos, hogy az OAuth szolgáltatók (Google, Discord) saját adatvédelmi szabályzatukkal rendelkeznek, melyek részletesen ismertetik, hogyan kezelik az általuk biztosított adatokat. Javasoljuk, hogy ezen szolgáltatók adatvédelmi nyilatkozatát is tanulmányozza. Amennyiben kérdése van az adatkezeléssel vagy az Ön személyes adatainak védelmével kapcsolatban, kérjük, forduljon hozzánk bizalommal.</p><br>        
+                  <p>A Varju Dental minden szükséges intézkedést megtesz annak érdekében, hogy az Ön által megadott személyes adatokat biztonságban tartsuk. Ennek érdekében használunk korszerű adatvédelmi technológiákat és folyamatokat.</p><br>
+                  <p>Ezek az adatvédelmi irányelvek időről időre frissíthetők, hogy tükrözzék az esetleges változásokat az adatkezelési gyakorlatunkban. Kérjük, rendszeresen ellenőrizze ezt az oldalt az esetleges frissítésekért.</p><br>            
+                  <p>A Varju Dental weboldal zavartalan működéséhez bizonyos sütik (cookie-k) használata szükséges, amelyek nem igényelnek előzetes felhasználói hozzájárulást.</p><br>
+             </div>
+       </div>
+  </div>
+  </section>
+
+
+
+  <section id="kapcsolat">
+    <footer class="site-footer">
+      <div class="footer-container">
+        <!-- Rólunk / Cégnév -->
+        <div class="footer-column footer-about">
+          <h3>VARJU DENTAL</h3>
+          <p>Fogászat és fogtechnika egy helyen.</p>
+        </div>
+        <div class="footer-column footer-about">
+          <h3>Dokumentumok</h3>
+          <a href="adatvedelem.html">Adatvédelem</a> <br>
+          <a href="aszf.html">Általános Szerződési Feltételek</a> <br>
+          <a href="gyik.html">Gyakran feltett kérdések</a>
+        </div>
+        <div class="footer-column footer-about">
+          <h3>Oldaltérkép</h3>
+          <a href="index.html#bejelentkezes">Bejelentkezés</a> <br>
+          <a href="szolgaltatasok.html">Szolgáltatások</a> <br>
+          <a href="csapat.html">Csapatunk</a>
+        </div>
+      </div> <!-- /footer-container lezárása -->
+  
+      <div class="footer-bottom">
+        <p>© 2025 Varju Dental. Minden jog fenntartva.</p>
+      </div>
+    </footer>
+  </section>
+
+
+
+
+<script src="script.js"></script> <!-- A JavaScript fájl kapcsolása -->
+
+
+<script>
+// Back to Top inline script
+(function() {
+  var btn = document.getElementById('backToTop');
+  if (!btn) return;
+  window.addEventListener('scroll', function() {
+    if (window.scrollY > 200) btn.classList.add('visible');
+    else btn.classList.remove('visible');
+  });
+  btn.addEventListener('click', function(e) {
+    e.preventDefault();
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  });
+})();
+</script>
+
+</body>
+</html>

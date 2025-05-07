@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Varju Dental</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style-csapat.css">
+    <link rel="stylesheet" href="style-szolg.css">
+    <link rel="stylesheet" href="style-footer.css">
+    <link rel="stylesheet" href="style-kapcsolat.css">
+
+
+      <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <!-- Boxicons ikoncsomag -->
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+
+</head>
+<button id="backToTop" aria-label="Back to Top">
+  <i class="bx bx-up-arrow-alt"></i>
+</button>
+<body>
+<header>
+  <nav class="navbar">
+    <div class="logo-container">
+        <img src="images/logo1.png" alt="Fő kép" class="benedek-logo">
+    </div>
+    <ul class="nav-list">
+        <li><i class="bx bxs-user"></i><a href="index.html">Főoldal</a></li>
+        <li><i class="bx bx-photo-album"></i><a href="szolgaltatasok.html">Szolgáltatások</a></li>
+        <li><i class="bx bx-intersect"></i><a href="index.html#bejelentkezes">Bejelentkezés</a></li>
+        <li><i class="bx bx-photo-album"></i><a href="csapat.html">Csapatunk</a></li>
+        <li><i class="bx bx-envelope"></i><a href="kapcsolat.html">Kapcsolat</a></li>
+    </ul>
+    
+    <!-- hamburgermenü-->
+    <div class="menu-icon" onclick="toggleMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+    
+ </nav>
+</header>
+
+<section class="avaszf-container">
+  <div class="avaszf-szoveg">
+      <div class="text1">
+      <h2>ÁLTALÁNOS SZERZŐDÉSI FELTÉTELEK</h2>
+             <div class="text1-1">
+                  <p>A honlapon található képek teljesmértékben a Varju Dental tulajdona, azonban kérem tekintsék a képeket illusztrációnak!</p><br>
+                  <p>A Varju Dental fenntartja a jogot, hogy időről időre módosítsa ezen Általános Szerződési Feltételek tartalmát. Az ilyen módosítások azonnal hatályba lépnek azok közzétételét követően az oldalon.
+                    Alkohol teremékeket csak 18 év feletti vevőinknek szolgálunk/szállítunk ki. Az életkor ellenőrzését a cég diszpécserei és futárai végezhetik. Amennyiben a Megrendelő az életkorát igazolni nem tudja, vagy nem kívánja, úgy a munkatársunk az alkohol termék átadását megtagadhatja.
+                    Amennyiben a Megrendelő a vételárat a kiszállított termék után nem fizeti meg, illetve az általa megadott elérhetőségen ténylegesen nem érhető el, valamint ha több alkalommal a Szolgáltatónak kárt okozva tévesen adja le a megrendeléseket vagy egyéb, a vendég magatartásával kapcsolatos bárminemű ok miatt, amit a Szolgáltató dönt el, akkor a Szolgáltató jogosult a Megrendelő regisztrációját törölni, illetve jogosult a megrendelés teljesítését megtagadni.
+                    Az egyértelműen hamis adatokkal regisztrált Megrendelőket a Szolgáltató jogosult az adatbázisából törölni.
+                    Az akciókkal és hirdetményekkel kapcsolatos és az abban foglalt ajánlatok változtatásának jogát a Szolgáltató fenntartja.</p><br>        
+                  <p>A szerződő Felek mindent elkövetnek annak érdekében, hogy az esetleges vitás kérdéseiket tárgyalások útján peren kívül rendezzék. Amennyiben a peren kívüli egyeztetések, tárgyalások nem lehetségesek, vagy azok ésszerű időn belül nem vezetnek eredményre, a Felek a jogvita rendezésére, értékhatártól függően kikötik a Szolgáltató mindenkori székhelye szerint illetékes helyi, illetve megyei bíróság kizárólagos illetékességét.</p><br>
+                  <p>Amennyiben kérdése vagy észrevétele van az Általános Szerződési Feltételekkel kapcsolatban, kérjük, vegye fel velünk a kapcsolatot az alábbi elérhetőségek egyikén: telefonszám, email cím.</p><br>
+
+                </div>
+       </div>
+  </div>
+  </section>
+
+
+
+  <section id="kapcsolat">
+    <footer class="site-footer">
+      <div class="footer-container">
+        <!-- Rólunk / Cégnév -->
+        <div class="footer-column footer-about">
+          <h3>VARJU DENTAL</h3>
+          <p>Fogászat és fogtechnika egy helyen.</p>
+        </div>
+        <div class="footer-column footer-about">
+          <h3>Dokumentumok</h3>
+          <a href="adatvedelem.html">Adatvédelem</a> <br>
+          <a href="aszf.html">Általános Szerződési Feltételek</a> <br>
+          <a href="gyik.html">Gyakran feltett kérdések</a>
+        </div>
+        <div class="footer-column footer-about">
+          <h3>Oldaltérkép</h3>
+          <a href="index.html#bejelentkezes">Bejelentkezés</a> <br>
+          <a href="szolgaltatasok.html">Szolgáltatások</a> <br>
+          <a href="csapat.html">Csapatunk</a>
+        </div>
+      </div> <!-- /footer-container lezárása -->
+  
+      <div class="footer-bottom">
+        <p>© 2025 Varju Dental. Minden jog fenntartva.</p>
+      </div>
+    </footer>
+  </section>
+
+
+
+
+<script src="script.js"></script> <!-- A JavaScript fájl kapcsolása -->
+
+
+<script>
+// Back to Top inline script
+(function() {
+  var btn = document.getElementById('backToTop');
+  if (!btn) return;
+  window.addEventListener('scroll', function() {
+    if (window.scrollY > 200) btn.classList.add('visible');
+    else btn.classList.remove('visible');
+  });
+  btn.addEventListener('click', function(e) {
+    e.preventDefault();
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  });
+})();
+</script>
+
+</body>
+</html>
