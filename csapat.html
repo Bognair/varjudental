@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title data-i18n="title"> 🦷 Varju Dental</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style-csapat.css">
+    <link rel="stylesheet" href="style-szolg.css">
+    <link rel="stylesheet" href="style-footer.css">
+    <link rel="stylesheet" href="style-kapcsolat.css">
+
+
+      <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <!-- Boxicons ikoncsomag -->
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+
+</head>
+<button id="backToTop" aria-label="Back to Top">
+  <i class="bx bx-up-arrow-alt"></i>
+</button>
+
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="logo-container">
+        <a href="index.html">
+          <img src="images/logo1.png" alt="Fő kép" class="benedek-logo">
+        </a>    </div>
+      <ul class="nav-list">
+          <li><i class="bx bxs-user"></i><a data-i18n="fooldal"href="index.html">Főoldal</a></li>
+          <li><i class="bx bx-photo-album"></i><a data-i18n="szolgaltatasok"href="szolgaltatasok.html">Szolgáltatások</a></li>
+          <li><i class="bx bx-intersect"></i><a data-i18n="bejelentkezes"href="index.html#bejelentkezes">Bejelentkezés</a></li>
+          <li><i class="bx bx-photo-album"></i><a data-i18n="csapatunk"href="csapat.html">Csapatunk</a></li>
+          <li><i class="bx bx-envelope"></i><a data-i18n="kapcsolat"href="kapcsolat.html">Kapcsolat</a></li>
+      </ul>
+      
+      <!-- hamburgermenü-->
+      <div class="menu-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+      </div>
+      
+   </nav>
+  </header>
+
+<section class="rolunk-container">
+<div class="rolunk-szoveg">
+    <div class="text1">
+    <h2 data-i18n="rolunk"> Rólunk</h2>
+           <div class="text1-1">
+                <p data-i18n="rolunk_text_1"> Fogászatunk Pápa kertvárosi részén, csendes környezetben található. A környező településekről autóval és tömegközlekedéssel is könnyedén megközelíthető.</p><br>
+                <p data-i18n="rolunk_text_2"> Rendelőnkben fogtechnikai labor is található, ami pontosabb munkát, rövidebb határidőket eredményez.</p><br>        
+                <p data-i18n="rolunk_text_3"> A rendelőben kényelmes, modern akadálymentesített és minden igényt kielégítő barátságos légkört biztosítunk az ide érkező pácienseink és kísérőjük számára. A legkisebbeket kifestő és színesceruza várja, hogy oldott hangulatban készülhessenek a kezelésre.</p><br>
+                <p data-i18n="rolunk_text_4"> Minden korosztály számára teljeskörű fogászati ellátást biztosítunk. Egy állapotfelmérés után orvosaink pontos tájékoztatást adnak a tervezett kezelések menetéről, és ezek várható költségéről.</p><br>            
+                <p data-i18n="rolunk_text_5"> Fontos számunkra, hogy a kezelések fájdalommentesek legyenek, csapatunk mindent megtesz azért, hogy biztonságban érezzék magukat nálunk .</p><br>
+           </div>
+     </div>
+</div>
+</section>
+
+<section class="csapat">
+  <h1 data-i18n="tagok"> Csapatunk</h1>
+  <div class="csapat-list">
+    <div class="csapat-card">
+      <img src="images/anna.jpg" alt="Páncsicsné Dr. Varju Anna">
+      <h2>Páncsicsné Dr. Varju Anna</h2>
+      <h3 data-i18n="fogorvos"> fogorvos</h3>
+    </div>
+    <div class="csapat-card">
+      <img src="images/aron.jpg" alt="Dr. Kovács Áron">
+      <h2>Dr. Kovács Áron</h2>
+      <h3 data-i18n="fogorvos"> fogorvos</h3>
+    </div>
+    <div class="csapat-card">
+      <img src="images/zoli.jpg" alt="Varju Zoltán">
+      <h2>Varju Zoltán</h2>
+      <h3 data-i18n="fogtechnikus"> fogtechnikus</h3>
+    </div>
+    <div class="csapat-card">
+      <img src="images/eszter.jpg" alt="Varjuné Pandur Eszter">
+      <h2>Varjuné Pandur Eszter</h2>
+      <h3 data-i18n="asszisztens"> fogászati asszisztens</h3>
+    </div>
+    <div class="csapat-card">
+      <img src="images/lilla.jpg" alt="Bognárné Végh Lilla">
+      <h2>Bognárné Végh Lilla</h2>
+      <h3 data-i18n="higienikus_technikus"> klinikai fogászati higiénikus, fogtechnikus</h3>
+    </div>
+    <div class="csapat-card">
+      <img src="images/eszter2.jpg" alt="Kovács Eszter">
+      <h2>Kovács Eszter</h2>
+      <h3 data-i18n="higienikus"> klinikai fogászati higiénikus</h3>
+    </div>
+    <!-- Több kártya esetén itt sorold fel ugyanígy -->
+  </div>
+</section>
+    
+
+      
+
+
+
+
+
+
+
+
+
+<section id="kapcsolat">
+  <footer class="site-footer">
+    <div class="footer-container">
+      <!-- Rólunk / Cégnév -->
+      <div class="footer-column footer-about">
+        <h3>VARJU DENTAL</h3>
+        <p data-i18n="footer_hero"> Fogászat és fogtechnika egy helyen.</p>
+      </div>
+      <div class="footer-column footer-about">
+        <h3 data-i18n="footer_dokumentumok"> Dokumentumok</h3>
+        <a data-i18n="footer_adatvedelem" href="adatvedelem.html">Adatvédelem</a> <br>
+        <a data-i18n="footer_aszf" href="aszf.html">Általános Szerződési Feltételek</a> <br>
+        <a data-i18n="footer_gyik" href="gyik.html">Gyakran feltett kérdések</a>
+      </div>
+      <div class="footer-column footer-about">
+        <h3 data-i18n="footer_oldalterkep" >Oldaltérkép</h3>
+        <a data-i18n="footer_check" href="index.html#bejelentkezes">Bejelentkezés</a> <br>
+        <a data-i18n="footer_szolgaltatasok" href="szolgaltatasok.html">Szolgáltatások</a> <br>
+        <a data-i18n="footer_csapatunk" href="csapat.html">Csapatunk</a>
+      </div>
+    </div> <!-- /footer-container lezárása -->
+
+    <div class="lang-switcher" id="lang-switcher">
+      <button type="button" class="lang-button" id="lang-button">
+        <span class="flag-icon" id="lang-flag">🇭🇺</span>
+        <span class="arrow">▾</span>
+      </button>
+      <ul class="lang-options" id="lang-options">
+        <li data-lang="hu"><span class="flag-icon">🇭🇺</span> Magyar</li>
+        <li data-lang="en"><span class="flag-icon">🇬🇧</span> English</li>
+        <li data-lang="de"><span class="flag-icon">🇩🇪</span> Deutsch</li>
+      </ul>
+    </div>
+
+    <div class="footer-bottom">
+      <p data-i18n="footer_bottom"> © 2025 Varju Dental. Minden jog fenntartva.</p>
+    </div>
+  </footer>
+</section>
+    
+    
+    
+    
+    <script src="script.js"></script> <!-- A JavaScript fájl kapcsolása -->
+    <script src="i18n.js"></script>
+
+    
+    <script>
+    // Back to Top inline script
+    (function() {
+      var btn = document.getElementById('backToTop');
+      if (!btn) return;
+      window.addEventListener('scroll', function() {
+        if (window.scrollY > 200) btn.classList.add('visible');
+        else btn.classList.remove('visible');
+      });
+      btn.addEventListener('click', function(e) {
+        e.preventDefault();
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+      });
+    })();
+    </script>
+    
+    </body>
+    </html>

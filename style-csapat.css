@@ -1,0 +1,105 @@
+
+/*====================ROLUNK====================*/
+/* A „Rólunk” szekció alapbeállításai */
+.rolunk-container {
+  padding: 10px 0px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-top: 100px;
+
+}
+.rolunk-szoveg .text1 h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 24px;
+}
+/* Bekezdések formázása: sorkizárt és alsó távolság */
+.text1-1 p {
+  text-align: justify;
+  margin-bottom: 1.5em;
+  line-height: 1.6;
+}
+/* Ha a HTML-ben még maradt <br> a bekezdések után, elrejthetjük őket */
+.text1-1 br {
+  display: none;
+}
+/* Mobil nézet */
+@media (max-width: 600px) {
+.rolunk-container {
+  padding: 10px 10px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+}
+
+
+
+/*====================CSAPAT====================*/
+/* Fő szekció */
+.csapat {
+  padding: 40px 20px;
+}
+.csapat h1 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+  color: black;
+}
+/* Kártyák rácsba rendezése: alapból két oszlop */
+.csapat-list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 100px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+/* Egyetlen kártya stílusa */
+.csapat-card {
+  background-color: #2db5db;
+  border-radius: 8px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.1);
+  padding: 20px;
+  transition: transform 0.3s, box-shadow 0.3s;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.csapat-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 24px rgba(0,0,0,0.15);
+}
+/* Kép középre, kör alakúra */
+.csapat-card img {
+  width: 80%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 6px;      /* enyhe lekerekítés */
+  margin-bottom: 20px;
+}
+/* Név, cím */
+.csapat-card h2 {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: black;
+}
+.csapat-card h3 {
+  font-size: 1rem;
+  font-weight: 300;
+  color: rgb(87, 87, 87);
+}
+/* Mobil nézet: egy oszlop */
+@media (max-width: 600px) {
+  .csapat-list {
+    grid-template-columns: 1fr;
+  }
+  .csapat-card img {
+    width: 80%;
+    height: auto;
+    margin-bottom: 16px;
+  }
+  .csapat-card h2 {
+    font-size: 1.25rem;
+  }
+}

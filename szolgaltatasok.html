@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title data-i18n="title"> 🦷 Varju Dental</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style-csapat.css">
+    <link rel="stylesheet" href="style-szolg.css">
+    <link rel="stylesheet" href="style-footer.css">
+    <link rel="stylesheet" href="style-kapcsolat.css">
+
+
+      <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <!-- Boxicons ikoncsomag -->
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+
+</head>
+<button id="backToTop" aria-label="Back to Top">
+  <i class="bx bx-up-arrow-alt"></i>
+</button>
+
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="logo-container">
+        <a href="index.html">
+          <img src="images/logo1.png" alt="Fő kép" class="benedek-logo">
+        </a>    </div>
+      <ul class="nav-list">
+          <li><i class="bx bxs-user"></i><a data-i18n="fooldal"href="index.html">Főoldal</a></li>
+          <li><i class="bx bx-photo-album"></i><a data-i18n="szolgaltatasok"href="szolgaltatasok.html">Szolgáltatások</a></li>
+          <li><i class="bx bx-intersect"></i><a data-i18n="bejelentkezes"href="index.html#bejelentkezes">Bejelentkezés</a></li>
+          <li><i class="bx bx-photo-album"></i><a data-i18n="csapatunk"href="csapat.html">Csapatunk</a></li>
+          <li><i class="bx bx-envelope"></i><a data-i18n="kapcsolat"href="kapcsolat.html">Kapcsolat</a></li>
+      </ul>
+      
+      <!-- hamburgermenü-->
+      <div class="menu-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+      </div>
+      
+   </nav>
+  </header>
+
+<section id="témakörök">
+<section class="témakörök-container">
+  <div class="témakörök-szöveg">
+       <div class="text1">
+       <h2 data-i18n="allapotfelmeres"> Állapotfelmérés</h2>
+              <div class="text1-1">
+                 <p data-i18n="allapotfelmeres_text"> Állapotfelmérés és konzultáció a megfelelő kezelési terv elkészítéséért.</p>
+              </div>
+        </div>
+  </div>
+  <div class="témakörök-galéria">      <!-- class=gallery-container: abognair webolda mintája miatt fontos-->
+        <img class="gallery-slide active" src="images/allapotfelmeres.jpg" alt="Kép 1">
+       <!-- <img class="gallery-slide" src="images/eskuvo2.webp" alt="Kép 2"> -->
+       <!-- <img class="gallery-slide" src="images/eskuvo3.jpg" alt="Kép 3"> -->
+        <!--<img class="gallery-slide" src="images/eskuvo4.jpg" alt="Kép 4"> -->
+            <!-- <button class="prev">&#10094;</button> -->
+            <!-- <button class="next">&#10095;</button> -->
+  </div>
+  </section>
+  
+  <section class="témakörök-container">
+    <div class="témakörök-galéria">      <!-- class=gallery-container: abognair webolda mintája miatt fontos-->
+      <img class="gallery-slide active" src="images/rontgen.jpg" alt="Kép 1">
+     <!-- <img class="gallery-slide" src="images/eskuvo2.webp" alt="Kép 2"> -->
+     <!-- <img class="gallery-slide" src="images/eskuvo3.jpg" alt="Kép 3"> -->
+      <!--<img class="gallery-slide" src="images/eskuvo4.jpg" alt="Kép 4"> -->
+          <!-- <button class="prev">&#10094;</button> -->
+          <!-- <button class="next">&#10095;</button> -->
+</div>
+  <div class="témakörök-szöveg">
+    <div class="text1">
+    <h2 data-i18n="digitalispan"> Digitális panorámaröntgen</h2>
+           <div class="text1-1">
+              <p data-i18n="digitalispan_text"> Az állapotfelmérés és a pontos diagnózis egyik alappillére. Elengedhetetlen a góckutatáshoz és a fogpótlások megtervezéséhez.</p>
+           </div>
+     </div>
+</div>
+  </section>
+  
+  <section class="témakörök-container">
+  <div class="témakörök-szöveg">
+       <div class="text1">
+       <h2 data-i18n="gyokerkezeles"> Gyökérkezelés</h2>
+              <div class="text1-1">
+                 <p data-i18n="gyokerkezeles_text"> A fogak megmentése elsődleges szempont, így gyökérkezeléseket a legmodernebb gépi technikával végezzük.</p>
+              </div>
+        </div>
+  </div>
+  <div class="témakörök-galéria">      <!-- class=gallery-container: abognair webolda mintája miatt fontos-->
+    <img class="gallery-slide active" src="images/gyokerkezeles.jpg" alt="Kép 1">
+   <!-- <img class="gallery-slide" src="images/eskuvo2.webp" alt="Kép 2"> -->
+   <!-- <img class="gallery-slide" src="images/eskuvo3.jpg" alt="Kép 3"> -->
+    <!--<img class="gallery-slide" src="images/eskuvo4.jpg" alt="Kép 4"> -->
+        <!-- <button class="prev">&#10094;</button> -->
+        <!-- <button class="next">&#10095;</button> -->
+</div>
+  </section>
+  
+  <section class="témakörök-container">
+    <div class="témakörök-galéria">      <!-- class=gallery-container: abognair webolda mintája miatt fontos-->
+      <img class="gallery-slide active" src="images/rogzitettfogpotlas.jpg" alt="Kép 1">
+     <!-- <img class="gallery-slide" src="images/eskuvo2.webp" alt="Kép 2"> -->
+     <!-- <img class="gallery-slide" src="images/eskuvo3.jpg" alt="Kép 3"> -->
+      <!--<img class="gallery-slide" src="images/eskuvo4.jpg" alt="Kép 4"> -->
+          <!-- <button class="prev">&#10094;</button> -->
+          <!-- <button class="next">&#10095;</button> -->
+</div>
+  <div class="témakörök-szöveg">
+    <div class="text1">
+    <h2 data-i18n="rogzitettfog"> Rögzített fogpótlások</h2>
+           <div class="text1-1">
+              <p data-i18n="rogzitettfog_text"> Fémkerámia és teljes kerámia pótlásaink a megfelelő rágás mellett maximális esztétikumot is biztosítanak.</p>
+           </div>
+     </div>
+</div>
+  </section>
+  
+  <section class="témakörök-container">
+  <div class="témakörök-szöveg">
+       <div class="text1">
+       <h2 data-i18n="kivehetoprot"> Kivehető protézisek</h2>
+              <div class="text1-1">
+                 <p data-i18n="kivehetoprot_text"> Többféle megoldást is tudunk nyújtani, hogy a foghiányt az Önnek legmegfelelőbb módon lehessen pótolni.</p>
+              </div>
+        </div>
+  </div>
+  <div class="témakörök-galéria">      <!-- class=gallery-container: abognair webolda mintája miatt fontos-->
+    <img class="gallery-slide active" src="images/kivehetoprotezis.jpg" alt="Kép 1">
+   <!-- <img class="gallery-slide" src="images/eskuvo2.webp" alt="Kép 2"> -->
+   <!-- <img class="gallery-slide" src="images/eskuvo3.jpg" alt="Kép 3"> -->
+    <!--<img class="gallery-slide" src="images/eskuvo4.jpg" alt="Kép 4"> -->
+        <!-- <button class="prev">&#10094;</button> -->
+        <!-- <button class="next">&#10095;</button> -->
+</div>
+  </section>
+  
+  <section class="témakörök-container">
+    <div class="témakörök-galéria">      <!-- class=gallery-container: abognair webolda mintája miatt fontos-->
+      <img class="gallery-slide active" src="images/gyermek.jpg" alt="Kép 1">
+     <!-- <img class="gallery-slide" src="images/eskuvo2.webp" alt="Kép 2"> -->
+     <!-- <img class="gallery-slide" src="images/eskuvo3.jpg" alt="Kép 3"> -->
+      <!--<img class="gallery-slide" src="images/eskuvo4.jpg" alt="Kép 4"> -->
+          <!-- <button class="prev">&#10094;</button> -->
+          <!-- <button class="next">&#10095;</button> -->
+</div>
+  <div class="témakörök-szöveg">
+    <div class="text1">
+    <h2 data-i18n="gyermekfog"> Gyermekfogászat</h2>
+           <div class="text1-1">
+              <p data-i18n="gyermekfog_text"> A gyerekkori fogászati élmény egy életen át meghatározó, így töekszünk arra, hogy kis pácienseink a legjobb élménnyel távozzanak.</p>
+           </div>
+     </div>
+</div>
+  </section>
+  
+  <section class="témakörök-container">
+  <div class="témakörök-szöveg">
+       <div class="text1">
+       <h2 data-i18n="fogfeher"> Fogfehérítés</h2>
+              <div class="text1-1">
+                 <p data-i18n="fogfeher_text"> Rendelői fogfehérítésünk visszaadja a ragyogó mosoly örömét. Az álttalunk nyújtott fogfehérítés tökéletesen biztonságos, nem károsítja a fogakat. Látványos eredmény 1 óra alatt.</p>
+              </div>
+        </div>
+  </div>
+  <div class="témakörök-galéria">      <!-- class=gallery-container: abognair webolda mintája miatt fontos-->
+    <img class="gallery-slide active" src="images/fogfeherites.jpg" alt="Kép 1">
+   <!-- <img class="gallery-slide" src="images/eskuvo2.webp" alt="Kép 2"> -->
+   <!-- <img class="gallery-slide" src="images/eskuvo3.jpg" alt="Kép 3"> -->
+    <!--<img class="gallery-slide" src="images/eskuvo4.jpg" alt="Kép 4"> -->
+        <!-- <button class="prev">&#10094;</button> -->
+        <!-- <button class="next">&#10095;</button> -->
+</div>
+  </section>
+  
+  <section class="témakörök-container">
+    <div class="témakörök-galéria">      <!-- class=gallery-container: abognair webolda mintája miatt fontos-->
+      <img class="gallery-slide active" src="images/tomes.jpg" alt="Kép 1">
+     <!-- <img class="gallery-slide" src="images/eskuvo2.webp" alt="Kép 2"> -->
+     <!-- <img class="gallery-slide" src="images/eskuvo3.jpg" alt="Kép 3"> -->
+      <!--<img class="gallery-slide" src="images/eskuvo4.jpg" alt="Kép 4"> -->
+          <!-- <button class="prev">&#10094;</button> -->
+          <!-- <button class="next">&#10095;</button> -->
+</div>
+  <div class="témakörök-szöveg">
+    <div class="text1">
+    <h2 data-i18n="tomes"> Tömés</h2>
+           <div class="text1-1">
+              <p data-i18n="tomes_text"> Töméshez csakis modern fogszínű kompozíciós tömőanyagot használunk a maximális esztétikumért.</p>
+           </div>
+     </div>
+</div>
+  </section>
+  
+  <section class="témakörök-container">
+  <div class="témakörök-szöveg">
+       <div class="text1">
+       <h2 data-i18n="3dterv"> 3D tervezés</h2>
+              <div class="text1-1">
+                 <p data-i18n="3dterv_text"> A rögzített pótlásokat 3 dimenziós számítógépes tervezéssel készítjük a maximális pontosságért.</p>
+              </div>
+        </div>
+  </div>
+  <div class="témakörök-galéria">      <!-- class=gallery-container: abognair webolda mintája miatt fontos-->
+    <img class="gallery-slide active" src="images/3d.jpg" alt="Kép 1">
+   <!-- <img class="gallery-slide" src="images/eskuvo2.webp" alt="Kép 2"> -->
+   <!-- <img class="gallery-slide" src="images/eskuvo3.jpg" alt="Kép 3"> -->
+    <!--<img class="gallery-slide" src="images/eskuvo4.jpg" alt="Kép 4"> -->
+        <!-- <button class="prev">&#10094;</button> -->
+        <!-- <button class="next">&#10095;</button> -->
+</div>
+  </section>
+  
+  <section class="témakörök-container">
+    <div class="témakörök-galéria">      <!-- class=gallery-container: abognair webolda mintája miatt fontos-->
+      <img class="gallery-slide active" src="images/implantacio.jpg" alt="Kép 1">
+     <!-- <img class="gallery-slide" src="images/eskuvo2.webp" alt="Kép 2"> -->
+     <!-- <img class="gallery-slide" src="images/eskuvo3.jpg" alt="Kép 3"> -->
+      <!--<img class="gallery-slide" src="images/eskuvo4.jpg" alt="Kép 4"> -->
+          <!-- <button class="prev">&#10094;</button> -->
+          <!-- <button class="next">&#10095;</button> -->
+</div>
+  <div class="témakörök-szöveg">
+    <div class="text1">
+    <h2 data-i18n="implantacio"> Implantáció</h2>
+           <div class="text1-1">
+              <p data-i18n="implantacio_text"> A már beültetett implantátumra fekészült csapatunk az Önnek legmegfelelpbb pótlást készíti el.</p>
+           </div>
+     </div>
+</div>
+  </section>
+  
+  <section class="témakörök-container">
+  <div class="témakörök-szöveg">
+       <div class="text1">
+       <h2 data-i18n="fogko"> Fogkő eltávolítás</h2>
+              <div class="text1-1">
+                 <p data-i18n="fogko_text"> Rendelőnkben a fogkő eltávolítás fontos része minden kezeléssorozatnak. Nem csak esztétikai problémát okoz. Fogínygyulladást, súlyosabb esetekben a fogak elvesztéséhez is vezethet.</p>
+              </div>
+        </div>
+  </div>
+  <div class="témakörök-galéria">      <!-- class=gallery-container: abognair webolda mintája miatt fontos-->
+    <img class="gallery-slide active" src="images/fogko.jpg" alt="Kép 1">
+   <!-- <img class="gallery-slide" src="images/eskuvo2.webp" alt="Kép 2"> -->
+   <!-- <img class="gallery-slide" src="images/eskuvo3.jpg" alt="Kép 3"> -->
+    <!--<img class="gallery-slide" src="images/eskuvo4.jpg" alt="Kép 4"> -->
+        <!-- <button class="prev">&#10094;</button> -->
+        <!-- <button class="next">&#10095;</button> -->
+</div>
+  </section>
+  </section>
+
+
+
+
+
+
+
+<section id="arlista">
+<div class="arlista-container">
+    <h1 data-i18n="arlista"> Fogászati Árlista</h1>
+
+    <div class="arlista-cards">
+
+      <div class="arlista-card">
+        <div class="arlista-card-icon">
+          <i class="fa-solid fa-square-poll-vertical"></i>
+        </div>
+        <h2 data-i18n="arlista_1"> ÁLLAPOTFELMÉRÉS</h2>
+        <ul>
+          <li>
+            <span data-i18n="arlista_1_1"> Fogászati állapotfelmérés, konzultáció, kezelési terv</span>
+            <span class="price">5.900 Ft</span>
+          </li>
+          <li>
+            <span data-i18n="arlista_1_2"> Panoráma röntgenfelvétel fogászati állapotfelméréshez</span>
+            <span class="price">7.900 Ft</span>
+          </li>
+          <li>
+            <span data-i18n="arlista_1_3"> Teleröntgen</span>
+            <span class="price">7.900 Ft</span>
+          </li>
+          <li>
+            <span data-i18n="arlista_1_4"> Cone Beam 3D CT</span>
+            <span class="price">25.000 Ft</span>
+          </li>
+        </ul>
+      </div>
+
+      <div class="arlista-card">
+        <div class="arlista-card-icon">
+          <i class="fa-solid fa-star"></i>
+        </div>
+        <h2 data-i18n="arlista_2"> FOGFEHÉRÍTÉS</h2>
+        <ul>
+          <li>
+            <span data-i18n="arlista_2_1"> Kozmetikai fogfehérítés</span>
+            <span class="price">29.900 Ft</span>
+          </li>
+          <li>
+            <span data-i18n="arlista_2_2"> Lézeres fogfehérítés (foganként értendő)</span>
+            <span class="price">8.900 Ft</span>
+          </li>
+          <li>
+            <span data-i18n="arlista_2_3"> Orvosi fogfehérítés</span>
+            <span class="price">79.900 Ft</span>
+          </li>
+          <li>
+            <span data-i18n="arlista_2_4"> Teljes kozmetikai szájhigiénia csomag fogfehérítéssel</span>
+            <span class="price">49.900 Ft</span>
+          </li>
+        </ul>
+      </div>
+
+      <div class="arlista-card">
+        <div class="arlista-card-icon">
+          <i class="fa-solid fa-teeth-open"></i>
+        </div>
+        <h2 data-i18n="arlista_3"> FOGKŐELTÁVOLÍTÁS</h2>
+        <ul>
+          <li>
+            <span data-i18n="arlista_3_1"> Ultrahangos fogkőeltávolítás, szájhigiénia</span>
+            <span class="price">14.900 Ft</span>
+          </li>
+          <li>
+            <span data-i18n="arlista_3_2"> Depurálás orvos által</span>
+            <span class="price">25.000 Ft</span>
+          </li>
+          <li>
+            <span data-i18n="arlista_3_3"> AIR-FLOW kezelés</span>
+            <span class="price">9.900 Ft</span>
+          </li>
+          <li>
+            <span data-i18n="arlista_3_4"> Professzionális szájhigiénés csomag</span>
+            <span class="price">17.900 Ft</span>
+          </li>
+        </ul>
+      </div>
+
+      <div class="arlista-card">
+        <div class="arlista-card-icon">
+          <i class="fa-solid fa-circle-half-stroke"></i>
+        </div>
+        <h2 data-i18n="arlista_4"> FOGTÖMÉSEK</h2>
+        <ul>
+          <li>
+            <span data-i18n="arlista_4_1"> Fognyak esztétikus tömés</span>
+            <span class="price">25.900 Ft</span>
+          </li>
+          <li>
+            <span data-i18n="arlista_4_2"> Frontfog esztétikus tömés</span>
+            <span class="price">29.900 Ft</span>
+          </li>
+          <li>
+            <span data-i18n="arlista_4_3"> Kisörlő fog esztétikus tömés</span>
+            <span class="price">33.900 Ft</span>
+          </li>
+          <li>
+            <span data-i18n="arlista_4_4"> Nagyörlő fog esztétikus tömés</span>
+            <span class="price">36.900 Ft</span>
+          </li>
+        </ul>
+      </div>
+
+      <div class="arlista-card">
+        <div class="arlista-card-icon">
+          <i class="fa-solid fa-x-ray"></i>
+        </div>
+        <h2 data-i18n="arlista_5"> GYÖKÉRKEZELÉS</h2>
+        <ul>
+          <li>
+            <span data-i18n="arlista_5_1"> Gyökérkezelés 1. alkalommal, gyökércsatorna kezelés</span>
+            <span class="price">29.900 Ft</span>
+          </li>
+          <li>
+            <span data-i18n="arlista_5_2"> Gyökérkezelés 2. alkalommal, gyökércsatorna kezelés</span>
+            <span class="price">34.900 Ft</span>
+          </li>
+          <li>
+            <span data-i18n="arlista_5_3"> Gyökércsatorna lézeres fertőtlenítés</span>
+            <span class="price">5.000 Ft</span>
+          </li>
+          <li>
+            <span data-i18n="arlista_5_4"> Régi gyökértömés eltávolítás</span>
+            <span class="price">19.800 Ft</span>
+          </li>
+        </ul>
+      </div>
+
+      <div class="arlista-card">
+        <div class="arlista-card-icon">
+          <i class="fa-solid fa-teeth"></i>
+        </div>
+        <h2 data-i18n="arlista_6"> FOGPÓTLÁSOK</h2>
+        <ul>
+          <li>
+            <span data-i18n="arlista_6_1"> CAD-CAM Fémkerámia korona</span>
+            <span class="price">69.900 Ft</span>
+          </li>
+          <li>
+            <span data-i18n="arlista_6_2"> CAD-CAM Cirkónium korona</span>
+            <span class="price">89.900 Ft</span>
+          </li>
+          <li>
+              <span data-i18n="arlista_6_3"> CAD-CAM Fémkerámia híd</span>
+              <span class="price">185.900 Ft</span>
+            </li>
+            <li>
+              <span data-i18n="arlista_6_4"> CAD-CAM Cirkónium híd</span>
+              <span class="price">327.900 Ft</span>
+            </li>
+        </ul>
+      </div>
+      <!-- Ide jöhetnek további kártyák ugyanígy -->
+
+    </div>
+  </div>
+  </section>
+
+
+
+
+
+  <section id="kapcsolat">
+    <footer class="site-footer">
+      <div class="footer-container">
+        <!-- Rólunk / Cégnév -->
+        <div class="footer-column footer-about">
+          <h3>VARJU DENTAL</h3>
+          <p data-i18n="footer_hero"> Fogászat és fogtechnika egy helyen.</p>
+        </div>
+        <div class="footer-column footer-about">
+          <h3 data-i18n="footer_dokumentumok"> Dokumentumok</h3>
+          <a data-i18n="footer_adatvedelem" href="adatvedelem.html">Adatvédelem</a> <br>
+          <a data-i18n="footer_aszf" href="aszf.html">Általános Szerződési Feltételek</a> <br>
+          <a data-i18n="footer_gyik" href="gyik.html">Gyakran feltett kérdések</a>
+        </div>
+        <div class="footer-column footer-about">
+          <h3 data-i18n="footer_oldalterkep" >Oldaltérkép</h3>
+          <a data-i18n="footer_check" href="index.html#bejelentkezes">Bejelentkezés</a> <br>
+          <a data-i18n="footer_szolgaltatasok" href="szolgaltatasok.html">Szolgáltatások</a> <br>
+          <a data-i18n="footer_csapatunk" href="csapat.html">Csapatunk</a>
+        </div>
+      </div> <!-- /footer-container lezárása -->
+  
+      <div class="lang-switcher" id="lang-switcher">
+        <button type="button" class="lang-button" id="lang-button">
+          <span class="flag-icon" id="lang-flag">🇭🇺</span>
+          <span class="arrow">▾</span>
+        </button>
+        <ul class="lang-options" id="lang-options">
+          <li data-lang="hu"><span class="flag-icon">🇭🇺</span> Magyar</li>
+          <li data-lang="en"><span class="flag-icon">🇬🇧</span> English</li>
+          <li data-lang="de"><span class="flag-icon">🇩🇪</span> Deutsch</li>
+        </ul>
+      </div>
+  
+      <div class="footer-bottom">
+        <p data-i18n="footer_bottom"> © 2025 Varju Dental. Minden jog fenntartva.</p>
+      </div>
+    </footer>
+  </section>
+
+
+
+
+<script src="script.js"></script> <!-- A JavaScript fájl kapcsolása -->
+<script src="i18n.js"></script>
+
+
+<script>
+// Back to Top inline script
+(function() {
+  var btn = document.getElementById('backToTop');
+  if (!btn) return;
+  window.addEventListener('scroll', function() {
+    if (window.scrollY > 200) btn.classList.add('visible');
+    else btn.classList.remove('visible');
+  });
+  btn.addEventListener('click', function(e) {
+    e.preventDefault();
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  });
+})();
+</script>
+
+</body>
+</html>

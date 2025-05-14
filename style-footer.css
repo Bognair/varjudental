@@ -1,0 +1,45 @@
+/*====================ROLUNK====================*/
+/* A „Rólunk” szekció alapbeállításai */
+.avaszf-container {
+    padding: 10px 0px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-top: 100px;
+  
+  }
+  .avaszf-szoveg .text1 h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 24px;
+  }
+  /* Bekezdések formázása: sorkizárt és alsó távolság */
+  .text1-1 p {
+    text-align: justify;
+    margin-bottom: 1.5em;
+    line-height: 1.6;
+  }
+  /* Ha a HTML-ben még maradt <br> a bekezdések után, elrejthetjük őket */
+  .text1-1 br {
+    display: none;
+  }
+  /* Mobil nézet */
+  @media (max-width: 600px) {
+  .avaszf-container {
+    padding: 10px 10px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  }
+  .gyik-item {
+    margin-bottom: 2em;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 1em;
+}
+.gyik-item h3 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5em;
+    color:  #2db5db;
+}
+.gyik-item p {
+    margin-left: 1em;
+}

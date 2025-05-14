@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title data-i18n="title"> 🦷 Varju Dental</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style-csapat.css">
+    <link rel="stylesheet" href="style-szolg.css">
+    <link rel="stylesheet" href="style-footer.css">
+    <link rel="stylesheet" href="style-kapcsolat.css">
+
+
+      <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <!-- Boxicons ikoncsomag -->
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+
+</head>
+<button id="backToTop" aria-label="Back to Top">
+  <i class="bx bx-up-arrow-alt"></i>
+</button>
+<body>
+<header>
+  <nav class="navbar">
+    <div class="logo-container">
+      <a href="index.html">
+        <img src="images/logo1.png" alt="Fő kép" class="benedek-logo">
+      </a>    </div>
+    <ul class="nav-list">
+        <li><i class="bx bxs-user"></i><a data-i18n="fooldal"href="index.html">Főoldal</a></li>
+        <li><i class="bx bx-photo-album"></i><a data-i18n="szolgaltatasok"href="szolgaltatasok.html">Szolgáltatások</a></li>
+        <li><i class="bx bx-intersect"></i><a data-i18n="bejelentkezes"href="index.html#bejelentkezes">Bejelentkezés</a></li>
+        <li><i class="bx bx-photo-album"></i><a data-i18n="csapatunk"href="csapat.html">Csapatunk</a></li>
+        <li><i class="bx bx-envelope"></i><a data-i18n="kapcsolat"href="kapcsolat.html">Kapcsolat</a></li>
+    </ul>
+    
+    <!-- hamburgermenü-->
+    <div class="menu-icon" onclick="toggleMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+    
+ </nav>
+</header>
+
+
+<section class="avaszf-container">
+  <div class="avaszf-szoveg">
+      <div class="text1">
+          <h2 data-i18n="gyik"> Gyakran Feltett Kérdések</h2>
+      </div>
+      <div class="text1-1">
+          
+          <div class="gyik-item">
+              <h3 data-i18n="gyik_1_1"> 1. Milyen szolgáltatásokat kínálnak a fogászati rendelőben?</h3>
+              <p data-i18n="gyik_1_2">
+                  Teljes körű általános fogászati ellátást nyújtunk: fogtömés, gyökérkezelés, foghúzás, professzionális fogkő-eltávolítás és szájhigiéniai tanácsadás.
+              </p>
+          </div>
+
+          <div class="gyik-item">
+              <h3 data-i18n="gyik_2_1"> 2. Mit jelent a CAD/CAM fogtechnika?</h3>
+              <p data-i18n="gyik_2_2">
+                  A CAD/CAM egy számítógéppel támogatott tervezési és gyártási eljárás, mely pontosabb, gyorsabb és esztétikusabb fogpótlásokat tesz lehetővé. Laborunkban digitális lenyomatvételt és előre gyártott kerámia blokkok használatát is alkalmazzuk.
+              </p>
+          </div>
+
+          <div class="gyik-item">
+              <h3 data-i18n="gyik_3_1"> 3. Milyen anyagokat használnak a koronák és hidak készítéséhez?</h3>
+              <p data-i18n="gyik_3_2">
+                  Kerámiát, cirkónium-oxidot és fém-kerámia kombinációkat használunk. A kiválasztott anyag az esztétikai igények és a páciens terhelése alapján kerül kiválasztásra.
+              </p>
+          </div>
+
+          <div class="gyik-item">
+              <h3 data-i18n="gyik_4_1"> 4. Mennyi ideig tart egy fogpótlás elkészítése?</h3>
+              <p data-i18n="gyik_4_2">
+                  A folyamat általában 2–3 alkalmat igényel: első alkalommal lenyomatvétel, második alkalommal próbakorona, harmadik alkalommal végleges felhelyezés. A teljes időtartam speciális esetektől függően 2–4 hét.
+              </p>
+          </div>
+
+          <div class="gyik-item">
+              <h3 data-i18n="gyik_5_1"> 5. Biztosítanak-e garanciát a fogpótlásokra?</h3>
+              <p data-i18n="gyik_5_2">
+                  Igen, minden kerámia és cirkónium-oxid pótlásra 2 év garanciát vállalunk, amely magába foglalja a funkcionális és esztétikai hibamentességet.
+              </p>
+          </div>
+
+          <div class="gyik-item">
+              <h3 data-i18n="gyik_6_1"> 6. Hogyan tudok időpontot foglalni?</h3>
+              <p data-i18n="gyik_6_2">
+                  Időpontot kérhet a honlapunk online foglaló felületén, telefonon a +36 1 234 5678 számon, vagy e-mailben az info@pelda-fogaszat.hu címen.
+              </p>
+          </div>
+
+      </div>
+  </div>
+</section>
+
+
+
+<section id="kapcsolat">
+  <footer class="site-footer">
+    <div class="footer-container">
+      <!-- Rólunk / Cégnév -->
+      <div class="footer-column footer-about">
+        <h3>VARJU DENTAL</h3>
+        <p data-i18n="footer_hero"> Fogászat és fogtechnika egy helyen.</p>
+      </div>
+      <div class="footer-column footer-about">
+        <h3 data-i18n="footer_dokumentumok"> Dokumentumok</h3>
+        <a data-i18n="footer_adatvedelem" href="adatvedelem.html">Adatvédelem</a> <br>
+        <a data-i18n="footer_aszf" href="aszf.html">Általános Szerződési Feltételek</a> <br>
+        <a data-i18n="footer_gyik" href="gyik.html">Gyakran feltett kérdések</a>
+      </div>
+      <div class="footer-column footer-about">
+        <h3 data-i18n="footer_oldalterkep" >Oldaltérkép</h3>
+        <a data-i18n="footer_check" href="index.html#bejelentkezes">Bejelentkezés</a> <br>
+        <a data-i18n="footer_szolgaltatasok" href="szolgaltatasok.html">Szolgáltatások</a> <br>
+        <a data-i18n="footer_csapatunk" href="csapat.html">Csapatunk</a>
+      </div>
+    </div> <!-- /footer-container lezárása -->
+
+    <div class="lang-switcher" id="lang-switcher">
+      <button type="button" class="lang-button" id="lang-button">
+        <span class="flag-icon" id="lang-flag">🇭🇺</span>
+        <span class="arrow">▾</span>
+      </button>
+      <ul class="lang-options" id="lang-options">
+        <li data-lang="hu"><span class="flag-icon">🇭🇺</span> Magyar</li>
+        <li data-lang="en"><span class="flag-icon">🇬🇧</span> English</li>
+        <li data-lang="de"><span class="flag-icon">🇩🇪</span> Deutsch</li>
+      </ul>
+    </div>
+
+    <div class="footer-bottom">
+      <p data-i18n="footer_bottom"> © 2025 Varju Dental. Minden jog fenntartva.</p>
+    </div>
+  </footer>
+</section>
+
+
+
+
+<script src="script.js"></script> <!-- A JavaScript fájl kapcsolása -->
+<script src="i18n.js"></script>
+
+
+<script>
+// Back to Top inline script
+(function() {
+  var btn = document.getElementById('backToTop');
+  if (!btn) return;
+  window.addEventListener('scroll', function() {
+    if (window.scrollY > 200) btn.classList.add('visible');
+    else btn.classList.remove('visible');
+  });
+  btn.addEventListener('click', function(e) {
+    e.preventDefault();
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  });
+})();
+</script>
+
+</body>
+</html>

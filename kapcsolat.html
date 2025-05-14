@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title data-i18n="title"> 🦷 Varju Dental</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style-csapat.css">
+    <link rel="stylesheet" href="style-szolg.css">
+    <link rel="stylesheet" href="style-footer.css">
+    <link rel="stylesheet" href="style-kapcsolat.css">
+
+
+      <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <!-- Boxicons ikoncsomag -->
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+
+</head>
+<button id="backToTop" aria-label="Back to Top">
+  <i class="bx bx-up-arrow-alt"></i>
+</button>
+
+<body>
+<header>
+  <nav class="navbar">
+    <div class="logo-container">
+      <a href="index.html">
+        <img src="images/logo1.png" alt="Fő kép" class="benedek-logo">
+      </a>    </div>
+    <ul class="nav-list">
+        <li><i class="bx bxs-user"></i><a data-i18n="fooldal"href="index.html">Főoldal</a></li>
+        <li><i class="bx bx-photo-album"></i><a data-i18n="szolgaltatasok"href="szolgaltatasok.html">Szolgáltatások</a></li>
+        <li><i class="bx bx-intersect"></i><a data-i18n="bejelentkezes"href="index.html#bejelentkezes">Bejelentkezés</a></li>
+        <li><i class="bx bx-photo-album"></i><a data-i18n="csapatunk"href="csapat.html">Csapatunk</a></li>
+        <li><i class="bx bx-envelope"></i><a data-i18n="kapcsolat"href="kapcsolat.html">Kapcsolat</a></li>
+    </ul>
+    
+    <!-- hamburgermenü-->
+    <div class="menu-icon" onclick="toggleMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+    
+ </nav>
+</header>
+
+
+
+
+<section id="contact">
+  <div class="container">
+    <h2 data-i18n="kapcsolat_1"> Kapcsolat</h2>
+    <div class="contact-cards">
+      <!-- Cím -->
+      <div class="card">
+        <h3 data-i18n="kapcsolat_2"> Cím</h3>
+        <p data-i18n="kapcsolat_3"> 8500 Pápa<br>  </p>
+        <p data-i18n="kapcsolat_4"> Harangöntő utca 26.  </p>
+      </div>
+
+      <!-- Elérhetőség -->
+      <div class="card">
+        <h3 data-i18n="elerhetoseg_1"> Elérhetőség</h3>
+        <p data-i18n="elerhetoseg_2"> Telefon: +36 20 538 0471<br>   </p>
+        <p> Email: <a data-i18n="elerhetoseg_3" href="varjudental@gmail.com">varjudental@gmail.com</a> </p>
+      </div>
+
+      <!-- Nyitvatartás -->
+      <div class="card">
+        <h3 data-i18n="nyitvatartas"> Nyitvatartás</h3>
+        <p data-i18n="nyitvatartas_1"> Hétfő: 8:00 – 15:00<br>   </p>
+        <p data-i18n="nyitvatartas_2"> Kedd: 8:00 – 15:00<br>   </p>
+        <p data-i18n="nyitvatartas_3"> Szerda: 10:00 – 19:00<br>   </p>
+        <p data-i18n="nyitvatartas_4"> Csütörtök: 10:00 – 19:00<br>   </p>
+        <p data-i18n="nyitvatartas_5"> Péntek: 8:00 – 15:00 </p>
+      </div>
+
+      <!-- Social linkek -->
+      <div class="card">
+        <h3 data-i18n="social"> Kövess minket</h3>
+        <div class="social-links">
+          <a href="https://www.facebook.com/VarjuDental/?locale=hu_HU" aria-label="Facebook"><i class="bx bxl-facebook"></i></a>
+          <a href="#" aria-label="Instagram"><i class="bx bxl-instagram"></i></a>
+          <a href="#" aria-label="YouTube"><i class="bx bxl-youtube"></i></a>
+          <a href="#" aria-label="LinkedIn"><i class="bx bxl-linkedin"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="terkep-blokk">
+  <iframe 
+  width="600" 
+  height="450" 
+  style="border:0"
+  loading="lazy" 
+  allowfullscreen 
+  referrerpolicy="no-referrer-when-downgrade" 
+  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2704.5039735994364!2d17.451081676213505!3d47.32402807116516!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4769611c8c99bbef%3A0x1b28a7bc51ce5381!2zUMOhcGEsIEhhcmFuZ8O2bnTFkSB1LiAyNiwgODUwMA!5e0!3m2!1shu!2shu!4v1746642627739!5m2!1shu!2shu">
+</iframe>      
+</div>
+
+
+
+
+<section id="kapcsolat">
+  <footer class="site-footer">
+    <div class="footer-container">
+      <!-- Rólunk / Cégnév -->
+      <div class="footer-column footer-about">
+        <h3>VARJU DENTAL</h3>
+        <p data-i18n="footer_hero"> Fogászat és fogtechnika egy helyen.</p>
+      </div>
+      <div class="footer-column footer-about">
+        <h3 data-i18n="footer_dokumentumok"> Dokumentumok</h3>
+        <a data-i18n="footer_adatvedelem" href="adatvedelem.html">Adatvédelem</a> <br>
+        <a data-i18n="footer_aszf" href="aszf.html">Általános Szerződési Feltételek</a> <br>
+        <a data-i18n="footer_gyik" href="gyik.html">Gyakran feltett kérdések</a>
+      </div>
+      <div class="footer-column footer-about">
+        <h3 data-i18n="footer_oldalterkep" >Oldaltérkép</h3>
+        <a data-i18n="footer_check" href="index.html#bejelentkezes">Bejelentkezés</a> <br>
+        <a data-i18n="footer_szolgaltatasok" href="szolgaltatasok.html">Szolgáltatások</a> <br>
+        <a data-i18n="footer_csapatunk" href="csapat.html">Csapatunk</a>
+      </div>
+    </div> <!-- /footer-container lezárása -->
+
+    <div class="lang-switcher" id="lang-switcher">
+      <button type="button" class="lang-button" id="lang-button">
+        <span class="flag-icon" id="lang-flag">🇭🇺</span>
+        <span class="arrow">▾</span>
+      </button>
+      <ul class="lang-options" id="lang-options">
+        <li data-lang="hu"><span class="flag-icon">🇭🇺</span> Magyar</li>
+        <li data-lang="en"><span class="flag-icon">🇬🇧</span> English</li>
+        <li data-lang="de"><span class="flag-icon">🇩🇪</span> Deutsch</li>
+      </ul>
+    </div>
+
+    <div class="footer-bottom">
+      <p data-i18n="footer_bottom"> © 2025 Varju Dental. Minden jog fenntartva.</p>
+    </div>
+  </footer>
+</section>
+
+
+
+
+<script src="script.js"></script> <!-- A JavaScript fájl kapcsolása -->
+<script src="i18n.js"></script>
+
+
+<script>
+// Back to Top inline script
+(function() {
+  var btn = document.getElementById('backToTop');
+  if (!btn) return;
+  window.addEventListener('scroll', function() {
+    if (window.scrollY > 200) btn.classList.add('visible');
+    else btn.classList.remove('visible');
+  });
+  btn.addEventListener('click', function(e) {
+    e.preventDefault();
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  });
+})();
+</script>
+
+</body>
+</html>
